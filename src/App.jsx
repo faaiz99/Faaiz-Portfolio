@@ -10,7 +10,12 @@ function App() {
   return (
     <VStack p={5}>
       <Flex w="100%">
-        <Heading as='h4' size='md' fontWeight={'extrabold'}>{'<'}Faaiz{'/>'}</Heading>
+      <Image
+          boxSize='100px'
+          objectFit='cover'
+          src='faaiz-logo.png'
+          alt='logo'
+        />
         <Spacer></Spacer>
         <IconButton icon={<FaLinkedin />} isRound='true' onClick={()=>window.open('https://linkedin.com/in/faaiz-aslam-203407195')}></IconButton>
         <IconButton ml={2} icon={<FaGithub />} isRound='true' onClick={()=>window.open('https://github.com/faaiz99')}></IconButton>

@@ -33,13 +33,13 @@ function Profile() {
               React
             </Text>
           </Flex>
-          <Flex rounded="xl" direction="column" mt={6} ml={isNotSmallerScreen ? 4 : 0}
+          {/* <Flex rounded="xl" direction="column" mt={6} ml={isNotSmallerScreen ? 4 : 0}
             bg="gray.100" h="30vh" w="30vh" justify="flex-end" _hover={{ bgGradient: 'linear(to-r, cyan.400, blue.500, purple.600)', }}>
             <Icon color="black" p="4" as={DiDjango} w="24" h="24" />
             <Text color="black" p="4" fontSize="xl" fontWeight="bold">
               Django
             </Text>
-          </Flex>
+          </Flex> */}
 
         </Flex>
 
