@@ -26,7 +26,7 @@ function Profile() {
     <Flex direction={isNotSmallerScreen ? "row" : "column"} w="100%"
       maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}>
       <Box alignSelf="center" px="32" py="16">
-        <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
+        <Heading fontWeight="extrabold" color="pink.400" size="4xl">
           7th
         </Heading>
         <Text fontSize="2xl" color="gray.400"> Semester</Text>
