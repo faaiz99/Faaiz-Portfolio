@@ -33,8 +33,6 @@ function Profile() {
               React
             </Text>
           </Flex>
-      
-
         </Flex>
 
       </Box>
