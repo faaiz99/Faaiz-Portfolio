@@ -1,19 +1,22 @@
 import { Flex, Heading, IconButton, VStack, Spacer, useColorMode} from "@chakra-ui/react"
 import { FaSun, FaMoon,FaGithub, FaLinkedin, FaStackOverflow, FaCode } from 'react-icons/fa';
+import { Image } from '@chakra-ui/react'
+import programming from "./assets/programming.png"
+
 import Header from "./components/header";
 import Social from "./components/social";
 import Profile from "./components/profile";
 import Footer from "./components/footer";
 function App() {
-  const { colorMode, toggleColorMode} = useColorMode();
+  const { colorMode, toggleColorMode} = useColorMode('dark');
   const isDark = colorMode === "dark";
   return (
     <VStack p={5}>
       <Flex w="100%">
       <Image
-          boxSize='100px'
+          boxSize='50px'
           objectFit='cover'
-          src='faaiz-logo.png'
+          src={programming}
           alt='logo'
         />
         <Spacer></Spacer>
